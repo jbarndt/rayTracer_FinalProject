@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="src\ofApp.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Utilities\Matrix.cpp" />
+    <ClCompile Include="src\Utilities\Normal.cpp" />
+    <ClCompile Include="src\Utilities\Point3D.cpp" />
+    <ClCompile Include="src\Utilities\Ray.cpp" />
+    <ClCompile Include="src\Utilities\RGBColor.cpp" />
+    <ClCompile Include="src\Utilities\ShadeRec.cpp" />
+    <ClCompile Include="src\Utilities\Vector3D.cpp" />
+    <ClCompile Include="src\GeometricObjects\GeometricObject.cpp" />
+    <ClCompile Include="src\GeometricObjects\Plane.cpp" />
+    <ClCompile Include="src\GeometricObjects\Sphere.cpp" />
+    <ClCompile Include="src\ViewPlane.cpp" />
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxColorPicker.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxInputField.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\GeometricObjects\BBox.cpp" />
+    <ClCompile Include="src\GeometricObjects\Rectangle.cpp" />
+    <ClCompile Include="src\GeometricObjects\Checkerboard.cpp" />
+    <ClCompile Include="src\Utilities\Point2D.cpp" />
+    <ClCompile Include="src\GeometricObjects\Camera.cpp" />
+    <ClCompile Include="src\GeometricObjects\Pinhole.cpp" />
+    <ClCompile Include="src\GeometricObjects\Triangle.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{ca0b5c78-b70b-4eef-8ac7-6ca409b8e06b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui">
+      <UniqueIdentifier>{0443c4fb-227e-49cb-ad91-619424d06697}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui\src">
+      <UniqueIdentifier>{f0996797-ac00-49f7-a4c9-896c29a36845}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\ofApp.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\Utilities\Constants.h" />
+    <ClInclude Include="src\Utilities\Maths.h" />
+    <ClInclude Include="src\Utilities\Matrix.h" />
+    <ClInclude Include="src\Utilities\Normal.h" />
+    <ClInclude Include="src\Utilities\Point3D.h" />
+    <ClInclude Include="src\Utilities\Ray.h" />
+    <ClInclude Include="src\Utilities\RGBColor.h" />
+    <ClInclude Include="src\Utilities\ShadeRec.h" />
+    <ClInclude Include="src\Utilities\Vector3D.h" />
+    <ClInclude Include="src\GeometricObjects\GeometricObject.h" />
+    <ClInclude Include="src\GeometricObjects\Plane.h" />
+    <ClInclude Include="src\GeometricObjects\Sphere.h" />
+    <ClInclude Include="src\ViewPlane.h" />
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxColorPicker.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxInputField.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\GeometricObjects\BBox.h" />
+    <ClInclude Include="src\GeometricObjects\Rectangle.h" />
+    <ClInclude Include="src\GeometricObjects\Checkerboard.h" />
+    <ClInclude Include="src\GeometricObjects\Camera.h" />
+    <ClInclude Include="src\Utilities\Point2D.h" />
+    <ClInclude Include="src\GeometricObjects\Pinhole.h" />
+    <ClInclude Include="src\GeometricObjects\Triangle.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+</Project>
